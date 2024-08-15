@@ -1,0 +1,22 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 8px;
+    width: calc(25% - 16px); 
+    box-shadow: 2px 2px 12px #aaa;
+    text-align: center;
+}
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+#cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; 
+}
+div{
+    margin-left: 9rem;
+}
